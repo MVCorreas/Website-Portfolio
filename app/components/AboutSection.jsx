@@ -61,6 +61,7 @@ const AboutSection = () => {
       <div className="relative">
         <Image 
         src="/Assets/about-image.png" 
+        alt="aboutImage"
         width={500} 
         height={500}
         className="rounded-full position-fixed" />

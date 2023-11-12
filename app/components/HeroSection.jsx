@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link'
 
 
 const HeroSection = () => {
@@ -35,12 +36,16 @@ const HeroSection = () => {
           “Nothing is impossible, the word itself says ‘ I’m possible.’ ” — Audrey Hepburn 
           </p>
           <div className='flex flex-col lg:flex-row'>
+            <Link href={'https://www.linkedin.com/in/mar%C3%ADa-victoria-correas-148049b2/'}>
             <button className='px-6 py-3 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white '>
               Hire Me
             </button>
+            </Link>
+            <Link href={'https://drive.google.com/file/d/19XciYc8yb_AWskCNKWLv-asDaV8vXEYi/view?usp=sharing'}>
             <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3 lg:mt-0'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
             </button>
+            </Link>
           </div>
         </div>
 

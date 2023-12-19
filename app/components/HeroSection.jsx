@@ -41,7 +41,7 @@ const HeroSection = () => {
               Hire Me
             </button>
             </Link>
-            <Link href={'https://drive.google.com/file/d/19XciYc8yb_AWskCNKWLv-asDaV8vXEYi/view?usp=sharing'}>
+            <Link href={'https://drive.google.com/file/d/17Zxvcj2FW1N-PLHWZYtmBXdMWnEX6c45/view?usp=sharing'}>
             <button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white border mt-3 lg:mt-0'>
               <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
             </button>
